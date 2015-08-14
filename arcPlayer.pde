@@ -49,9 +49,9 @@ void draw() {
     p.run();
   }
 
-  textSize(24);
+  textSize(12);
   fill(255);
-  text(audioFile, 24, height - 24);
+  text(audioFile, 6, height - 6);
   drawSlider(speedSlider);
 }
 
