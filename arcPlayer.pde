@@ -20,7 +20,16 @@ Maxim maxim;
 Player [] players;
 PImage [] images;
 
-int numPlayers = 16;
+/*
+set this variable (numPlayers) to how many slices you'd like
+there is no error checking as such, so...
+setting this to 1 will great one single slice that plays the whole of both files and it will also obscure the video
+(personally, i like 8-16 slices; 32 slices is pretty fiddly!)
+odd meter numbers of slices might look a bit odd
+depending on the video they might leave a white line down the far right.
+but they often sound cool, depending on the source audio.
+*/
+int numPlayers = 8;
 String audioFile = "tinklyArpsCut.wav";
 
 int numSlices = numPlayers;
